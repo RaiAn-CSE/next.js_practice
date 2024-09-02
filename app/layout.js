@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
           <ul className="flex gap-6">
             <li className="cursor-pointer"><Link href='/'>Home</Link></li>
             <li className="cursor-pointer"><Link href='/about'>About</Link></li>
+            <li className="cursor-pointer"><Link href='/blog'>Blog</Link></li>
           </ul>
         </nav>
         <hr />

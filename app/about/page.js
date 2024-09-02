@@ -6,7 +6,7 @@ export default function About() {
     return (
         <main>
             <div className="mt-6">
-                This is about us
+                This is About us page...
             </div>
         </main>
     );
