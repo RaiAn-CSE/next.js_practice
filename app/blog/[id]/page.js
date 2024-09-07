@@ -1,15 +1,16 @@
-import { notFound } from 'next/navigation';
+// import { notFound } from 'next/navigation';
 import React from 'react';
 
-const BlogPage = ({params}) => {
+const BlogPage = ({ params }) => {
 
-    console.log(params,"params")
-    const {id,title,description} = params;
+    // console.log(params, "params")
+    const { id, title, description } = params;
 
-    console.log(id);
-    if (id ==="3"){
-        notFound();
-    }
+    // console.log(id, title, description);
+
+    // if (id === "3") {
+    //     notFound();
+    // }
 
 
     return (

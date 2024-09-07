@@ -2,7 +2,7 @@
 
 export default function Btn({ btnName }) {
 
-    console.log(btnName);
+    // console.log(btnName);
 
     return (
         <div className="mt-6">

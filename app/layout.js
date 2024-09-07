@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
             <li className="cursor-pointer"><Link href='/'>Home</Link></li>
             <li className="cursor-pointer"><Link href='/about'>About</Link></li>
             <li className="cursor-pointer"><Link href='/blog'>Blog</Link></li>
+            <li className="cursor-pointer"><Link href='/posts'>Posts</Link></li>
           </ul>
         </nav>
         <hr />
